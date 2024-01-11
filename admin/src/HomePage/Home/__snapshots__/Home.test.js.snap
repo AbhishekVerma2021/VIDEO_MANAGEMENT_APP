@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Home/> Should render Home componnet 1`] = `
+"<Fragment>
+  <withRouter(Connect(NavBar)) />
+  <div>
+    <div className=\\"cardHome\\">
+      <Card data={{...}} onDelete={[Function: onDelete]} />
+    </div>
+    <ToastContainer position=\\"top-right\\" transition={[Function (anonymous)]} autoClose={5000} closeButton={[Function: E]} pauseOnHover={true} pauseOnFocusLoss={true} closeOnClick={true} draggable={true} draggablePercent={80} draggableDirection=\\"x\\" role=\\"alert\\" theme=\\"light\\" />
+  </div>
+</Fragment>"
+`;

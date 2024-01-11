@@ -1,0 +1,181 @@
+.Frame {
+    height: 40vh;
+    width: 100%;
+}
+
+
+
+#frame {
+    height: 100%;
+    width: 100%;
+    border-radius: 1vh 1vh 0 0;
+}
+
+.videoDetails {
+    margin: 1% auto 1% auto;
+    width: 93%;
+}
+
+.videoTitle {
+    margin-top: 2%;
+    font-size: 1.5vw;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.videoDescription {
+    margin-top: 3%;
+    font-size: 1vw;
+    width: 100%;
+    height: 6vh;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.videoDate {
+    margin-top: 3%;
+    font-size: 0.9vw;
+}
+
+
+.mainCard {
+    position: relative;
+    z-index: 0;
+    width: 30vw;
+    color: black;
+    margin: 0 0 0 0.8vw;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.429);
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    border-radius: 1vh;
+    box-shadow: 5px 5px 5px rgb(200, 200, 200);
+    cursor: pointer;
+    transition: all 0.3s;
+    height: 60vh;
+}
+
+.mainCard:hover {
+    transform: scale(1.01);
+}
+
+.editDeleteBtns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: center;
+    width: 28vw;
+    margin: 3% auto 0 auto;
+}
+
+.editDeleteIcons {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 3vw;
+
+}
+
+.actionBtns {
+    border: none;
+    cursor: pointer;
+    background-color: antiquewhite;
+    padding: 1% 2% 1% 2%;
+    transition: all 0.3s;
+    border-radius: 1vw;
+}
+
+
+#viewButton {
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(8, 0, 255, 0.684);
+    padding: 1vh 1vw 1vh 1vw;
+    transition: all 0.3s;
+    border-radius: 0.5vh;
+    text-decoration: none;
+    font-weight: 600;
+    width: 8.5vw;
+    height: 5vh;
+    color: rgb(255, 255, 255);
+}
+
+
+#viewButton:hover {
+    background-color: rgba(8, 0, 255, 0.497);
+    color: white;
+}
+
+#delButton {
+    margin-top: 1vh;
+    font-size: 2.3vw;
+    background-color: rgba(105, 105, 105, 0);
+    color: rgb(196, 0, 0);
+    padding: 0 1vw 0 1vw;
+}
+
+#delButton:hover {
+    color: red;
+}
+
+#editButton {
+    font-size: 2.3vw;
+    background-color: rgba(105, 105, 105, 0);
+    padding: 0 1vw 0 1vw;
+    color: darkblue;
+
+}
+
+#editButton:hover {
+    color: rgb(22, 64, 203);
+}
+
+@media only screen and (max-width: 400px) {
+
+    .mainCard {
+        width: 100%;
+    }
+
+    .videoDate {
+        margin-top: 1vw;
+        font-size: 2.5vw
+    }
+
+    .videoDesc {
+        font-size: 2.5vw;
+    }
+
+    .videoTitle {
+        font-size: 4vw;
+    }
+
+    .editDeleteBtns {
+        width: 90%;
+    }
+
+    .vidDetails {
+        padding: 2vw;
+    }
+
+
+    #editButton {
+        padding: 2vw 4vw 2vw 4vw;
+        font-size: 4vw;
+    }
+
+    #delButton {
+        padding: 2vw 4vw 2vw 4vw;
+        font-size: 4vw;
+    }
+}

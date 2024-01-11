@@ -1,0 +1,81 @@
+.signUpPage {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(72, 152, 244, 0.653) 150%);
+}
+
+
+.signUpFormSection {
+    height: 100Vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.signUpNavBar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #034694;
+    padding: 2vh 0 2vh 0;
+    position: absolute;
+    top: 0px;
+}
+
+#loginRenderButton {
+    position: absolute;
+    right: 3vw;
+}
+
+.signUpNavBarHeading {
+    margin: 0;
+    /* width: 100vw; */
+    color: white;
+    text-align: center;
+}
+
+.signUpFormArea {
+    padding: 0 1vw 2vh 1vw;
+    width: 37%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    flex-direction: column;
+    border: 3px solid #034694;
+    border-radius: 4px;
+    transition: all 1s;
+}
+
+.signUpFormArea:hover {
+    background-color: rgba(22, 120, 232, 0.089);
+}
+
+
+.signUpFormElement {
+    width: 90%;
+}
+
+.InputField {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signUpHeading h1 {
+    margin: 0;
+    color: #034694;
+}
+
+#signUpButton {
+    width: 100%;
+    height: 7vh;
+}

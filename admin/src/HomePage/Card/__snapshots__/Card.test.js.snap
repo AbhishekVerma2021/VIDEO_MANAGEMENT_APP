@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Card/> Should render Card component 1`] = `
+"<Fragment>
+  <div className=\\"mainCard\\">
+    <div className=\\"Frame\\">
+      <iframe id=\\"frame\\" src=\\"https://www.youtube.com/embed/e64JTo7LMmY\\" title=\\"This is a title\\" className=\\"videoLink\\" frameBorder={0} allow=\\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\\" allowFullScreen={true} />
+    </div>
+    <div className=\\"videoDetails\\">
+      <div title=\\"This is a title\\" className=\\"videoTitle\\">
+        This is a title
+      </div>
+      <div title=\\"sadn asd sad  saf rewef wefew f wef we fw ef wef we f\\" className=\\"videoDescription\\">
+        sadn asd sad  saf rewef wefew f wef we fw ef wef we f
+      </div>
+      <div className=\\"videoDate\\">
+        Created On: 
+        17/4/2023
+      </div>
+      <div className=\\"editDeleteBtns\\">
+        <Link to=\\"/viewPost/643d8663cdcd1ac35198e3ae\\" className=\\"viewLink\\">
+          <button id=\\"viewButton\\">
+            View Post
+          </button>
+        </Link>
+        <ContextProvider value={{...}}>
+          <div id=\\"editButton\\" className=\\"actionBtns\\" onClick={[Function: onClick]}>
+            <i className=\\"fa-solid fa-pen-to-square\\" />
+          </div>
+        </ContextProvider>
+        <button id=\\"delButton\\" className=\\"actionBtns\\" onClick={[Function: onClick]}>
+          <i className=\\"fa-sharp fa-solid fa-trash\\" />
+        </button>
+      </div>
+    </div>
+  </div>
+</Fragment>"
+`;

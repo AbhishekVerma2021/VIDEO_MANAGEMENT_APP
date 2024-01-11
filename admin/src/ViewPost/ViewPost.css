@@ -1,0 +1,170 @@
+.wholeCard {
+    height: 90vh;
+    width: 100vw;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(3, 70, 148, 0.6532738095238095) 100%);
+}
+
+.cardBody {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.videoFrame {
+    display: flex;
+    justify-content: center;
+
+}
+
+.videoFrame iframe {
+    height: 50vh;
+    width: 70vw;
+}
+
+.videoLink {
+    width: 50vw;
+    height: 100%;
+    border-radius: 1vh 1vh 0vw 0vw;
+}
+
+
+
+.detailSection {
+    display: grid;
+    height: 30vh;
+    margin: 2vh 15vw 2vh 15vw;
+    width: 70vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.detailSection div {
+    margin: 1vh 0 0 0;
+}
+
+.detailValue div {
+    font-size: larger;
+    font-weight: 600;
+    width: 100%;
+}
+
+.titleDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+#editPostToHomeButton {
+    position: absolute;
+    left: 0px
+}
+
+.homeEditButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: auto;
+    position: relative;
+}
+
+.viewEditLink {
+    height: 6vh;
+}
+
+.headingTitle {
+    font-size: 2.3vw;
+    color: white;
+    max-width: 57vw;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.editAndLogoutButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    position: absolute;
+    right: 0px;
+}
+
+.viewNavBar {
+    background-color: #034694;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleDate div span {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.titleDate div span span {
+    font-weight: 400;
+    font-size: large;
+}
+
+.titleDate~div {
+    width: 70%;
+}
+
+#videoTitle {
+    width: 100%;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dateCreated {
+    width: auto;
+}
+
+.video-title {
+    width: 76%;
+}
+
+#titleHeading {
+    width: 16%;
+}
+
+#title-value {
+    width: 80%;
+    font-weight: normal;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#videoLinkHeading {
+    font-size: larger;
+    font-weight: 600;
+    width: 16%;
+}
+
+#videoLinkHeading~span {
+    width: 84%;
+    font-size: larger;
+    word-wrap: break-word;
+    color: #034694;
+}
+
+#linkView {
+    display: flex;
+    justify-content: flex-start;
+    width: 76%;
+    word-wrap: break-word;
+}

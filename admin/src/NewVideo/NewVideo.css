@@ -1,0 +1,164 @@
+.dialogBody {
+    margin: auto;
+    border-radius: 0.3vw;
+    background-color: transparent;
+    width: 90vw;
+    height: 100vh;
+}
+
+.dialogStructure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 85vw;
+    height: 67vh;
+    max-width: 85vw;
+    max-height: 67vh;
+}
+
+.formTitle {
+    overflow-x: hidden;
+    text-align: center;
+    background-color: #034694;
+    height: 8vh;
+    /* font-family: 'Times New Roman', Times, serif; */
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin: 0 !important;
+}
+
+
+.cardView {
+    height: 35vh;
+}
+
+.cardDetails {
+    height: 40vh;
+}
+
+.cardContentView {
+    width: 93%;
+    margin: 2vh auto;
+}
+
+
+
+.cardContentView iframe {
+    border: none;
+    border-radius: 0.4vh;
+    height: 60vh;
+
+}
+
+.liveDetails {
+    width: 96%;
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+.formTitle::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* FORM */
+.inputFields {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    gap: 9.5%;
+}
+
+.inputFields::-webkit-scrollbar {
+    display: none;
+}
+
+.inputTitle {
+    margin: 2vh 0 0 0;
+    width: 90%;
+}
+
+.altImage {
+    height: 60vh;
+    width: 39.4vw;
+}
+
+.videoPreview {
+    height: 60vh;
+    width: 39.4vw;
+}
+
+.inputLable {
+    font-weight: 700;
+    font-size: 110%;
+    margin: 0% 0% 1% 0%;
+}
+
+.inputLable span {
+    color: red;
+    font-size: small;
+}
+
+.textArea {
+    width: 92.5%;
+    padding-top: 10px;
+}
+
+.inputField {
+    width: 90%;
+    height: 7vh;
+    border: none;
+    outline: none;
+    border-radius: 0.5vh 0.5vh 0 0;
+    padding: 0 0 0 1vw;
+    font-size: 2.5vh;
+    background-color: rgb(236, 236, 236);
+    transition: all 0.3s;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.244);
+}
+
+.inputField:hover {
+    background-color: rgba(162, 162, 162, 0.315);
+}
+
+.inputField:focus {
+    background-color: rgb(236, 236, 236);
+    border-bottom: 2px solid #3c89e1;
+}
+
+.inputField:not(:focus) {
+    border-bottom: 1px solid #1e1717;
+}
+
+.inputField::placeholder {
+    opacity: 0.6;
+}
+
+#uploadButton:hover {
+    background-color: #034694;
+    color: white !important;
+}
+
+#cancelButton {
+    margin: 0vh 2.5vw 0 1vw;
+    color: #B31B1B;
+    border: 2px solid #B31B1B;
+    transition: all 0.3s;
+}
+
+#cancelButton:hover {
+    background-color: #B31B1B;
+    color: white;
+}
+
+.errorMessage {
+
+    margin: 0.3vh 0 0 0;
+    width: 90%;
+    font-size: 2vh;
+    color: #cb2020;
+}

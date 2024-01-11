@@ -1,0 +1,95 @@
+.loginPage {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(72, 152, 244, 0.653) 150%);
+}
+
+.loginFormSection {
+    height: 100Vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.loginNavBar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #034694;
+    padding: 2vh 0 2vh 0;
+    position: absolute;
+    top: 0px;
+    transition: all 0.3s;
+}
+
+#signUpRenderButton {
+    position: absolute;
+    right: 3vw;
+}
+
+.loginNavBarHeading {
+    margin: 0;
+    /* width: 100vw; */
+    color: white;
+    text-align: center;
+}
+
+.loginFormArea {
+    padding: 0 1vw 5vh 1vw;
+    width: 37%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-direction: column;
+    border: 3px solid #034694;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.loginFormArea:hover {
+    background-color: rgba(22, 120, 232, 0.089);
+}
+
+.loginFormElement {
+    width: 90%;
+}
+
+.InputField {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#op {
+
+    /* Set the border color to the desired color */
+    border-color: purple;
+
+}
+
+.loginHeading h1 {
+    margin: 0;
+    color: #034694;
+}
+
+
+
+#loginButton {
+    width: 100%;
+    height: 7vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .loginFormArea {
+        width: 60%;
+    }
+}
